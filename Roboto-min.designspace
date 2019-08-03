@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
 <designspace format="3">
     <axes>
-        <axis default="400" maximum="900" minimum="250" name="weight" tag="wght">
+        <axis default="400" maximum="900" minimum="100" name="weight" tag="wght">
             <labelname xml:lang="en">Weight</labelname>
-            <map input="250" output="-1" />
+            <map input="100" output="-1" />
             <map input="300" output="-0.550000" />
             <map input="400" output="-0.100000" />
             <map input="500" output="0.350000" />
@@ -61,6 +61,15 @@
                 <dimension name="slant" xvalue="-12" />
             </location>
         </source>
+        
+        <source familyname="Roboto" filename="master_ufo/RobotoCondensed-Thin.ufo" name="RobotoCondensed-Thin.ufo" stylename="Condensed Thin">
+            <location>
+                <dimension name="weight" xvalue="-1" />
+                <dimension name="width" xvalue="75" />
+                <dimension name="slant" xvalue="0" />
+            </location>
+        </source>
+        
         <source familyname="Roboto" filename="master_ufo/RobotoCondensed-Light.ufo" name="RobotoCondensed-Light.ufo" stylename="Condensed Light">
             <location>
                 <dimension name="weight" xvalue="-0.550000" />
@@ -215,6 +224,28 @@
             <kerning />
             <info />
         </instance>
+        
+<!--
+        <instance familyname="Roboto" stylename="Condensed Thin" filename="RobotoCondensed-Light.ufo">
+            <location>
+                <dimension name="weight" xvalue="-0.550000" />
+                <dimension name="width" xvalue="75" />
+                <dimension name="slant" xvalue="0" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Roboto" stylename="Condensed Extralight" filename="RobotoCondensed-Light.ufo">
+            <location>
+                <dimension name="weight" xvalue="-0.550000" />
+                <dimension name="width" xvalue="75" />
+                <dimension name="slant" xvalue="0" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+-->
+        
         <instance familyname="Roboto" stylename="Condensed Light" filename="RobotoCondensed-Light.ufo">
             <location>
                 <dimension name="weight" xvalue="-0.550000" />
